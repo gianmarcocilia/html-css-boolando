@@ -48,9 +48,25 @@ header {
 /* Col */
 
 .col {
+    margin-top: 50px;
     width: calc(95% / 3);
-    padding-top: 3rem;
     position: relative;
+}
+
+/* Hearts */
+
+.heart {
+    background-color: white;
+    font-size: 2.5rem;
+    padding: .5rem;
+    position: absolute;
+    right: 0;
+    top: 65px;
+    z-index: 2;
+}
+
+.heart:hover {
+    color: red;
 }
 
 /* Discount banner */
@@ -60,6 +76,7 @@ header {
     left: 0;
     bottom: 120px;
     color: white;
+    z-index: 2;
 }
 
 .banner-red,
@@ -76,4 +93,17 @@ header {
 
 .banner-green {
     background-color: green;
+}
+
+/* Hover Section */
+
+.over-photo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
+
+.col:hover .over-photo {
+    z-index: 1;
 }
