@@ -52,3 +52,28 @@ header {
     padding-top: 3rem;
     position: relative;
 }
+
+/* Discount banner */
+
+.discount-banner {
+    position: absolute;
+    left: 0;
+    bottom: 120px;
+    color: white;
+}
+
+.banner-red,
+.banner-green {
+    display: inline-block;
+    padding: .3em;
+    font-weight: bold;
+}
+
+.banner-red{
+    background-color: red;
+    margin-right: 5px;
+}
+
+.banner-green {
+    background-color: green;
+}
