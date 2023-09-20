@@ -11,3 +11,44 @@ img {
 
 /* COMMON */
 
+.container {
+    width: 75%;
+    margin: 0 auto;
+}
+
+.flex {
+    display: flex;
+}
+
+.red-cost {
+    color: red;
+    font-weight: bold;
+}
+
+.old-cost {
+    text-decoration: line-through;
+}
+
+/* HEADER */
+
+header {
+    /* Debug */
+    height: 100px;
+}
+
+/* MAIN */
+
+/* Row */
+
+.row {
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+/* Col */
+
+.col {
+    width: calc(95% / 3);
+    padding-top: 3rem;
+    position: relative;
+}
