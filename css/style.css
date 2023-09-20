@@ -20,6 +20,11 @@ img {
     display: flex;
 }
 
+.space-center {
+    justify-content: space-between;
+    align-items: center;
+}
+
 .red-cost {
     color: red;
     font-weight: bold;
@@ -29,14 +34,49 @@ img {
     text-decoration: line-through;
 }
 
+ul {
+    list-style: none;
+}
+
+a {
+    color: inherit;
+    text-decoration: none;
+}
+
+li {
+    display: inline-block;
+}
+
 /* HEADER */
 
 header {
-    /* Debug */
-    height: 100px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 3;
+    background-color: orange;
+    color: white;
+}
+
+header .container {
+    height: 60px;
+}
+
+header li {
+    font-size: 1.2rem;
+    padding: 0 .5rem;
+}
+
+.logo {
+    height: 100%;
 }
 
 /* MAIN */
+
+main {
+    padding-top: 3rem;
+}
 
 /* Row */
 
