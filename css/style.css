@@ -30,6 +30,10 @@ img {
     font-weight: bold;
 }
 
+strong {
+    color: red;
+}
+
 .old-cost {
     text-decoration: line-through;
 }
@@ -90,6 +94,10 @@ main {
     position: relative;
 }
 
+.card-img img {
+    display: block;
+}
+
 /* Hearts */
 
 .heart {
@@ -100,10 +108,6 @@ main {
     right: 0;
     top: 65px;
     z-index: 2;
-}
-
-.heart:hover {
-    color: red;
 }
 
 /* Discount banner */
@@ -123,7 +127,7 @@ main {
     font-weight: bold;
 }
 
-.banner-red{
+.banner-red {
     background-color: red;
     margin-right: 5px;
 }
@@ -141,8 +145,12 @@ main {
     z-index: -1;
 }
 
-.col:hover .over-photo {
+.card-img:hover .over-photo {
     z-index: 1;
+}
+
+.heart:hover {
+    color: red;
 }
 
 /* FOOTER */
@@ -161,4 +169,18 @@ footer h4 {
 
 .footer-left a {
     font-size: 1rem;
+}
+
+/* 2esempio */
+
+.card-img .over-photo-2esempio {
+    display: none;
+}
+
+.card-img:hover .over-photo-2esempio {
+    display: block;
+}
+
+.card-img:hover .main-photo {
+    display: none;
 }
