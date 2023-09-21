@@ -108,6 +108,7 @@ main {
     right: 0;
     top: 65px;
     z-index: 2;
+    cursor: pointer;
 }
 
 /* Discount banner */
